@@ -8,7 +8,10 @@ NoticiasApp es una aplicación nativa para Android desarrollada con los más alt
 
 El objetivo principal de este repositorio es servir como referencia para el desarrollo moderno en Android, demostrando la integración de **Clean Architecture**, **MVVM**, y **Unidirectional Data Flow (UDF)** utilizando Jetpack Compose y las últimas bibliotecas de la comunidad.
 
+## 📷 Capturas de pantallas
 
+![Captura 1](/assets/screen1.jpeg)
+![Captura 2](/assets/screen2.jpeg)
 
 ## ✨ Características Principales
 
@@ -71,7 +74,8 @@ Para ejecutar este proyecto en tu entorno local:
 4. Sincroniza el proyecto con los archivos de Gradle (Sync Project with Gradle Files).
 5. Ejecuta la aplicación en un emulador o dispositivo físico con **Android 8.0 (API 26) o superior**.
 
-> *Nota: No se requiere ninguna API Key para ejecutar el proyecto, ya que la Spaceflight News API es pública.*
+> [!Note]
+> *No se requiere ninguna API Key para ejecutar el proyecto, ya que la Spaceflight News API es pública.*
 
 ## 💡 Lecciones Clave de Arquitectura
 
