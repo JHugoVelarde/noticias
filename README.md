@@ -67,17 +67,17 @@ Para ejecutar este proyecto en tu entorno local:
     git clone https://github.com/tu-usuario/NoticiasApp.git
 ```
 2. Abre el proyecto en Android Studio.
-3. Asegúrate de tener configurado el Gradle JDK en versión 17 o 21 (JetBrains Runtime recomendado).
+3. Asegúrate de tener configurado el **Gradle JDK en versión 17 o 21** (JetBrains Runtime recomendado).
 4. Sincroniza el proyecto con los archivos de Gradle (Sync Project with Gradle Files).
-5. Ejecuta la aplicación en un emulador o dispositivo físico con Android 8.0 (API 26) o superior.
+5. Ejecuta la aplicación en un emulador o dispositivo físico con **Android 8.0 (API 26) o superior**.
 
-Nota: No se requiere ninguna API Key para ejecutar el proyecto, ya que la Spaceflight News API es pública.
+> *Nota: No se requiere ninguna API Key para ejecutar el proyecto, ya que la Spaceflight News API es pública.*
 
 ## 💡 Lecciones Clave de Arquitectura
 
-- Aislamiento de la Red: La API devuelve un modelo de red (DTO), pero nuestro Repositorio lo transforma internamente a un modelo de dominio. La UI nunca conoce los detalles de la implementación de la red.
-- Type-Safe Navigation: El ViewModel de detalle extrae el ID del artículo directamente de su constructor gracias a la navegación moderna de Compose, manteniendo la seguridad de tipos en todo el flujo.
+- **Aislamiento de la Red:** La API devuelve un modelo de red (DTO), pero nuestro Repositorio lo transforma internamente a un modelo de dominio. La UI nunca conoce los detalles de la implementación de la red.
+- **Type-Safe Navigation:** El ViewModel de detalle extrae el ID del artículo directamente de su constructor gracias a la navegación moderna de Compose, manteniendo la seguridad de tipos en todo el flujo.
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la Licencia Apache 2.0 - consulta el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo la Licencia Apache 2.0 - consulta el archivo [LICENSE](LICENSE) para más detalles.
