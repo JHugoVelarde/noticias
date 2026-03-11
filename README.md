@@ -10,8 +10,8 @@ El objetivo principal de este repositorio es servir como referencia para el desa
 
 ## 📷 Capturas de pantallas
 
-![Captura 1](/assets/screen1.jpeg)
-![Captura 2](/assets/screen2.jpeg)
+![Captura 1](/assets/screen1.jpg)
+![Captura 2](/assets/screen2.jpg)
 
 ## ✨ Características Principales
 
