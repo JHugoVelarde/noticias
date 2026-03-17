@@ -1,4 +1,4 @@
-# Noticias App 📰
+# 📰 Noticias App
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/kotlin-2.0.21-blue.svg?style=for-the-badge&logo=kotlin)
@@ -67,7 +67,7 @@ Para ejecutar este proyecto en tu entorno local:
 
 1. Clona este repositorio en tu terminal:
 ```bash
-    git clone https://github.com/tu-usuario/NoticiasApp.git
+    git clone https://github.com/JHugoVelarde/noticias.git
 ```
 2. Abre el proyecto en Android Studio.
 3. Asegúrate de tener configurado el **Gradle JDK en versión 17 o 21** (JetBrains Runtime recomendado).
